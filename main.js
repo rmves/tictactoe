@@ -16,6 +16,6 @@ const displayController = (() => {
 
     cells.forEach(cell => cell.addEventListener('click',(e)=> {
         if (e.target.textContent !== '') return
-        console.log('testing')
+        
     }))
 })();
